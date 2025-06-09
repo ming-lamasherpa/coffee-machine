@@ -13,7 +13,7 @@ while is_machine_on:
         if choice not in ["latte","espresso","cappuccino"]:
             print("sorry !!! {choice} is not available.select correctly ")
         else:
-            print(is_resource_sufficient(choice))
+            if
 
             # print(choice)
     

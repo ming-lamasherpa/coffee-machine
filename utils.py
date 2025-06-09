@@ -11,7 +11,7 @@ def is_resource_sufficient(choice):
     is_resource_suff = True
     for ingred,qty in COFFEE_MENU.get(choice,{}).get("ingredients", " ").items():
         if resources.get(ingred,0) < qty:
-            print(f"we donot have enough {ingred}!!! Try another coffee.")
+            print(f"Sorry there is not enough {ingred}!!! ")
             is_resource_suff = False
     
     return is_resource_suff
